@@ -12100,23 +12100,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\data52309\\.nuget\\packages\\": {},
+    "C:\\Users\\N46V\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\net\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
+      "projectUniqueName": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
       "projectName": "ProAgil.API",
-      "projectPath": "C:\\net\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
-      "packagesPath": "C:\\Users\\data52309\\.nuget\\packages\\",
-      "outputPath": "C:\\net\\ProAgil\\ProAgil-API\\obj\\",
+      "projectPath": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
+      "packagesPath": "C:\\Users\\N46V\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\data52309\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\N46V\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12156,7 +12156,6 @@
             "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
