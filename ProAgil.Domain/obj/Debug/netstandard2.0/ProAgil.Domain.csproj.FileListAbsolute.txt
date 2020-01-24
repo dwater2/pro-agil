@@ -1,0 +1,9 @@
+C:\net\ProAgil\ProAgil.Domain\bin\Debug\netstandard2.0\ProAgil.Domain.deps.json
+C:\net\ProAgil\ProAgil.Domain\bin\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\net\ProAgil\ProAgil.Domain\bin\Debug\netstandard2.0\ProAgil.Domain.pdb
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.csprojAssemblyReference.cache
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.csproj.CoreCompileInputs.cache
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.AssemblyInfoInputs.cache
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.AssemblyInfo.cs
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.dll
+C:\net\ProAgil\ProAgil.Domain\obj\Debug\netstandard2.0\ProAgil.Domain.pdb

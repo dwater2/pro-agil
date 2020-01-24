@@ -4461,6 +4461,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ProAgil.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        }
+      },
+      "ProAgil.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.0.0",
+          "ProAgil.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        }
       }
     }
   },
@@ -12089,6 +12114,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ProAgil.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Domain/ProAgil.Domain.csproj",
+      "msbuildProject": "../ProAgil.Domain/ProAgil.Domain.csproj"
+    },
+    "ProAgil.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Repository/ProAgil.Repository.csproj",
+      "msbuildProject": "../ProAgil.Repository/ProAgil.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12096,27 +12131,29 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "ProAgil.Domain >= 1.0.0",
+      "ProAgil.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\N46V\\.nuget\\packages\\": {},
+    "C:\\Users\\data52309\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
+      "projectUniqueName": "C:\\net\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
       "projectName": "ProAgil.API",
-      "projectPath": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
-      "packagesPath": "C:\\Users\\N46V\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\dotNetCore\\ProAgil\\ProAgil-API\\obj\\",
+      "projectPath": "C:\\net\\ProAgil\\ProAgil-API\\ProAgil.API.csproj",
+      "packagesPath": "C:\\Users\\data52309\\.nuget\\packages\\",
+      "outputPath": "C:\\net\\ProAgil\\ProAgil-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\N46V\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\data52309\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12128,7 +12165,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\net\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+              "projectPath": "C:\\net\\ProAgil\\ProAgil.Domain\\ProAgil.Domain.csproj"
+            },
+            "C:\\net\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+              "projectPath": "C:\\net\\ProAgil\\ProAgil.Repository\\ProAgil.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12156,6 +12200,7 @@
             "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
